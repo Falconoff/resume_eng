@@ -34,6 +34,10 @@ aside {
 	width: 100%;
 }
 
+.info-mobile {
+	display: none;
+}
+
 .contacts,
 .tech-skills,
 .soft-skills {
@@ -139,7 +143,55 @@ a:hover {
 	}
 	.wrapper {
 		width: 100%;
-		color: blue;
 	}
-	
+}
+
+@media screen and (max-width: 767px) {
+	.contacts,
+	.tech-skills,
+	.soft-skills {
+		margin: 20px 20px;
+	}
+	.title {
+		margin-top: 20px;
+	}
+	main {
+		padding: 20px;
+	}
+}
+
+@media screen and (max-width: 650px)  {
+	.wrapper {
+		flex-direction: column;
+	}
+	aside {
+		width: 100%;
+		/*padding-top: 10px;
+		padding-bottom: 10px;*/
+		padding: 15px;
+	}
+	.my-photo {
+		/*width: 270px;*/
+		width: 40%;
+		float: right;
+		margin: 10px;
+	}
+	.info-mobile {
+		padding: 10px 20px;
+		display: block;
+	}
+	.info-mobile h1 {
+		font-size: 30px;
+		line-height: 48px;
+	}
+	.info-container h1,
+	.info-container h2 {
+		display: none;
+	}
+}
+
+@media screen and (max-width: 479px) {
+	.my-photo {
+		display: none;
+	}
 }
