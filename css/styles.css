@@ -40,7 +40,8 @@ aside {
 
 .contacts,
 .tech-skills,
-.soft-skills {
+.soft-skills,
+.languages {
   margin: 50px 30px;
 }
 .contacts__list {
@@ -51,9 +52,12 @@ aside {
   margin-left: 0;
 }
 
+.wrap {
+  margin-bottom: 40px;
+}
 .title {
   line-height: 46px;
-  margin-top: 50px;
+  /* margin-top: 40px; */
 }
 
 aside li {
@@ -66,7 +70,8 @@ aside li {
 }
 
 .tech-skills__name,
-.soft-skills__name {
+.soft-skills__name,
+.languages__item {
   color: #fff;
 }
 
@@ -75,7 +80,7 @@ main {
 }
 
 main li {
-  margin-left: 15px;
+  margin-left: 19px;
   color: #555;
 }
 
@@ -100,6 +105,7 @@ h1 {
 .experience__duties {
   font-size: 16px;
   font-weight: bold;
+  color: #8f949c;
 }
 
 .experience__details {
@@ -155,7 +161,8 @@ a:hover {
 @media screen and (max-width: 767px) {
   .contacts,
   .tech-skills,
-  .soft-skills {
+  .soft-skills,
+  .languages {
     margin: 20px 20px;
   }
   .title {
