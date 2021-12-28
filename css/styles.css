@@ -57,7 +57,7 @@ aside {
 }
 .title {
   line-height: 46px;
-  /* margin-top: 40px; */
+  font-size: 18px;
 }
 
 aside li {
@@ -85,7 +85,6 @@ main li {
 }
 
 h1 {
-  /*color: #555;*/
   color: #8f949c;
 }
 
@@ -96,6 +95,10 @@ h1 {
 
 .info-container h2 {
   margin: 20px 0;
+}
+
+.info-container p {
+  margin-bottom: 8px;
 }
 
 .experience__item {
